@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.general{
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
+/*Lateral information*/
+.lateral-information{
+    background-color: rgb(252, 252, 252);
+    color: rgb(0, 0, 0);
+
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    padding: 50px 20px;
+}
+
+.lateral-information h2{
+    color:rgb(0, 0, 0);
+    padding: 20px 0px;
+}
+
+.lateral-information img{
+    width: 50%;
+}
+
+/*Header*/
+.header-information{
+    background-color: rgb(28, 28, 30);
+    color: rgb(232, 228, 228);
+    height: 100vh;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.nav-container{
+    justify-content: space-between;
+}
+
+/*Section video*/
+.section-video{
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 25px;
+}
+
+.section-text p{
+    margin: 0px 70px;
+}
+
+
+.section-hero{
+    background-color: rgb(28, 28, 30);
+    min-height: 100vh;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color:aliceblue
+}
+
+.storie{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 20px;
+    gap: 10px;
+}
+
+.light{
+    background-color: rgb(85, 52, 64);
+    color: rgb(205, 234, 194);;
+}
+
+.storie img{
+    width: 50%;
+}
+
+.dark{
+    background: rgb(255, 192, 203);
+    color: rgb(122, 63, 63);
+}
+
+.purple{
+    background: rgb(215, 179, 214);
+    color: rgb(71, 21, 122);
+}
+
+.blue{
+    background: rgb(107, 172, 219);
+    color: rgb(40, 39, 39);
+}
+
+.footer-container{
+    min-height: 100vh;
+    flex-direction: column;
+    background-color: rgb(28, 28, 30);
+    color: rgb(232, 228, 228);
+}
+
+.footer-title{
+    height: 20%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-footer-data{
+    height: 80%;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.footer-data{
+    flex-grow: 1;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+iframe{
+    width: 80%;
+    height: 70%;
+}
+
+@media screen and (max-width: 900px){
+    .lateral-information h2{
+        font-size: 22px;
+    }
+}
