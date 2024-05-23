@@ -1,0 +1,148 @@
+h2{
+    font-family: 'Arial', sans-serif;
+    color: #303030;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    display: inline-block;
+}
+
+header{
+    color: azure;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 10vh;
+    background-color: rgb(28, 28, 30);
+}
+
+.encabezado{
+    box-shadow: 0 0 20px #000000;
+}
+
+.img-contenedor{
+    object-fit: cover;
+}
+
+.icon{
+    max-width: 80%; 
+    max-height: 110%;
+}
+
+@media (max-width: 768px) {
+    .icon{
+        max-width: 50%; 
+        max-height: 70%;
+    }
+}
+
+
+
+
+
+
+
+
+.contenedor-imagenes{
+    min-height: 75vh;
+}
+
+.contenedor-prestamos-comerciales{
+    min-height: 30vh;
+    margin-top: 60px;
+}
+
+.titulo-1{
+    margin-top: 100px;
+}
+
+.titulo-2{
+    margin-bottom: 50px;
+}
+
+.comerciales-info{
+    height: 80%;
+}
+
+.comercial-texto{
+    height: 50%;
+}
+
+.comercial-img{
+    height: 50%;
+    max-width: 100%;
+}
+
+.icon-img{
+    height: 120px;
+    width: auto;
+    max-width: 100%;
+}
+
+.titulo-nosotros h1{
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+
+.titulo-nosotros{
+    margin-bottom: 100px;
+}
+
+.nosotros{
+    min-height: 80vh;
+    margin:120px 0;
+}
+
+.nosotros-img{
+    width: 70%;
+}
+
+.contenido{
+    max-width: 60%;
+}
+
+.img{
+    box-shadow: 0 0 10px #000000;
+    border-radius: 2%;
+}
+
+.img-contenedor{
+    margin: 70px 0;
+}
+
+
+
+.img img{
+    border-radius: 2%;
+}
+
+.seccion h1{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.link-information{
+    text-decoration: none;
+    color: white;
+}
+
+.link-information:hover{
+    opacity: 0.4;
+}
+
+.custom-container {
+    padding-left: 15%;
+    text-align: left;
+}
+
+.pie-pagina-contacto{
+    width: 60%;
+}
+
+img:hover{
+    opacity: 0.9;
+}
+
+h1{
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
